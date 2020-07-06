@@ -211,14 +211,8 @@
         case A0SimpleKeychainItemAccessibleAfterFirstUnlock:
             accessibility = kSecAttrAccessibleAfterFirstUnlock;
             break;
-        case A0SimpleKeychainItemAccessibleAlways:
-            accessibility = kSecAttrAccessibleAlways;
-            break;
         case A0SimpleKeychainItemAccessibleAfterFirstUnlockThisDeviceOnly:
             accessibility = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly;
-            break;
-        case A0SimpleKeychainItemAccessibleAlwaysThisDeviceOnly:
-            accessibility = kSecAttrAccessibleAlwaysThisDeviceOnly;
             break;
 #if TARGET_OS_IPHONE
         case A0SimpleKeychainItemAccessibleWhenPasscodeSetThisDeviceOnly:
